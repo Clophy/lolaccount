@@ -1,0 +1,70 @@
+.header{
+    background-color: #000;
+    background-image: url("/headerbg.png");
+    background-position: bottom;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding: 2rem 0;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list ul{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.new{
+    position: relative;
+}
+.new::after{
+    width: min-content;
+    height: min-content;
+    content: "New";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    background-color: #944991;
+    padding: 0rem .5rem;
+    border-radius: 1rem;
+    font-size: .8rem;
+    opacity: .7;
+}
+
+.giris{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.giris button{
+    border-radius: .7rem;
+    padding: .6rem 1.5rem;
+    filter: drop-shadow(-14px 14px 7px rgba(112,59,136,0.16 ));
+    background-color: #703b88;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+.giris .language{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    padding: .2rem .5rem;
+    background-color: #888;
+    border-radius: 1rem;
+    border: 1px solid #703b88;
+}

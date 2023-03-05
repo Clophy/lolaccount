@@ -1,0 +1,123 @@
+.footer{
+    background-image: url("/headerbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    background-color: #000;
+    padding: 2rem;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bar{
+    background-color:#703B88 ;
+    border-radius: 1rem;
+}
+.contain{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding: .5rem 0;
+}
+.logo{
+    flex: 1;
+}
+
+.discord, .contact, .call{
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-left: 1px solid whitesmoke;
+    padding: 1rem;
+}
+
+.discord > .icon, .contact > .icon, .call > .icon {
+
+    background-color: #FFF;
+    color: #703B88;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: 100%;
+}
+
+.links{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.ourServices{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.getToKnowUs{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons{
+    background-color: #703B88;
+    padding: 1rem;
+    color: #FFF;
+    border-radius: .5rem;
+}
+.title p{
+    text-transform: uppercase;
+}
+
+.list ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style:square;
+    list-style-position: inside;
+
+}
+
+.list ul li{
+    width: 45%;
+    padding: .5rem;
+    font-size: .8rem;
+
+}
+
+.list .three li{
+    width: 30%;
+    padding: .5rem;
+    font-size: .8rem;
+}
+
+.banner{
+    background-color: #000;
+    padding: 1rem;
+    margin-top: 2rem;
+
+}
+.bannerContain{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    gap: .5rem;
+}
