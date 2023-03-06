@@ -97,7 +97,7 @@ function Footer() {
         <div className={Styles.bannerContain}>
         <p>Lolaccount.net &copy; Copyright 2012 - 2022 All rights reserved</p>
         <div className={Styles.cards}>
-          <Image src="/visa.png" width={47} height={14}  alt="payment"/>
+          <Image src="/visa.png" width={47} height={12}  alt="payment"/>
           <Image src="/master.png" width={47} height={28} alt="payment"/>
           <Image src="/american.png" width={47} height={15} alt="payment"/>
         </div>

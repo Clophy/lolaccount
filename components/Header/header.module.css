@@ -2,7 +2,6 @@
     background-color: #000;
     background-image: url("/headerbg.png");
     background-position: bottom;
-    object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     color: #FFF;
@@ -60,11 +59,54 @@
 }
 
 .giris .language{
+    position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     gap: .2rem;
     padding: .2rem .5rem;
     background-color: #888;
     border-radius: 1rem;
     border: 1px solid #703b88;
+}
+
+.basket{
+    color: #703B88;
+    background-color: rgba(112,59,136,0.25 );
+    padding: 1rem;
+    border: 1px solid #703B88;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+.sayi{
+    position: absolute;
+    top: -.6rem;
+    font-size: .6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #703B88;
+    padding: .1rem .8rem;
+    border-radius: .5rem;
+    color: #FFF;
+}
+
+
+.languagesdefault{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: .2rem;
+}
+.languages{
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .2rem;
+    padding: .2rem .5rem;
+    background-color: #888;
+    border-radius: 1rem;
+    top: 2rem;
+    left: 0;
 }
